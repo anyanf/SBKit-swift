@@ -10,8 +10,8 @@ import Foundation
 public extension UIControl {
     
     struct AssociatedKeys {
-        static var eventBlockNameKey: String = "eventBlockNameKey"
-        static var hitEdgeInsetsNameKey: String = "hitEdgeInsetsNameKey"
+        static var eventBlockNameKey: Void?
+        static var hitEdgeInsetsNameKey: Void?
     }
     
     typealias SBControlEventBlock = (_ eventControl: UIControl, _ controlEvent: UIControl.Event) -> Void
